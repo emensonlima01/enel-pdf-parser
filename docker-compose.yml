@@ -1,0 +1,21 @@
+services:
+  enel-ocr-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enel-ocr:local
+    container_name: enel-ocr
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8000}:8000"
+    environment:
+      PORT: "8000"
+      API_TOKEN: "${API_TOKEN:-dev-local-token}"
+      WEB_CONCURRENCY: "${WEB_CONCURRENCY:-1}"
+      WEB_THREADS: "${WEB_THREADS:-1}"
+      GUNICORN_TIMEOUT: "${GUNICORN_TIMEOUT:-300}"
+      PADDLE_PDX_MODEL_SOURCE: "${PADDLE_PDX_MODEL_SOURCE:-BOS}"
+      PDF_DPI: "${PDF_DPI:-300}"
+      OMP_NUM_THREADS: "${OMP_NUM_THREADS:-1}"
+      OPENBLAS_NUM_THREADS: "${OPENBLAS_NUM_THREADS:-1}"
+    mem_limit: "${MEM_LIMIT:-1g}"

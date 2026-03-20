@@ -1,0 +1,141 @@
+{
+  "id": "v1",
+  "regions": [
+    {
+      "description": "CLASSIFICACAO_UNIDADE_CONSUMIDORA",
+      "source": "native",
+      "x": 178,
+      "y": 328,
+      "width": 639,
+      "height": 68
+    },
+    {
+      "description": "TIPO_FORNECIMENTO",
+      "source": "native",
+      "x": 827,
+      "y": 329,
+      "width": 304,
+      "height": 63
+    },
+    {
+      "description": "NUMERO_INSTALACAO",
+      "source": "native",
+      "x": 141,
+      "y": 713,
+      "width": 694,
+      "height": 89
+    },
+    {
+      "description": "NUMERO_CLIENTE",
+      "source": "native",
+      "x": 141,
+      "y": 713,
+      "width": 694,
+      "height": 89
+    },
+    {
+      "description": "PERIODO_FATURAMENTO",
+      "source": "native",
+      "x": 826,
+      "y": 495,
+      "width": 325,
+      "height": 40
+    },
+    {
+      "description": "DATA_VENCIMENTO",
+      "source": "native",
+      "x": 826,
+      "y": 596,
+      "width": 317,
+      "height": 70
+    },
+    {
+      "description": "VALOR_PAGAR",
+      "source": "native",
+      "x": 822,
+      "y": 708,
+      "width": 331,
+      "height": 95
+    },
+    {
+      "description": "LEITURA_ATUAL",
+      "source": "native",
+      "x": 1599,
+      "y": 325,
+      "width": 230,
+      "height": 74
+    },
+    {
+      "description": "LEITURA_ANTERIOR",
+      "source": "native",
+      "x": 1312,
+      "y": 324,
+      "width": 284,
+      "height": 76
+    },
+    {
+      "description": "PROXIMA_LEITURA",
+      "source": "native",
+      "x": 2021,
+      "y": 324,
+      "width": 279,
+      "height": 72
+    },
+    {
+      "description": "DIAS_LEITURA",
+      "source": "native",
+      "x": 1835,
+      "y": 328,
+      "width": 183,
+      "height": 68
+    },
+    {
+      "description": "DADOS_PESSOAIS",
+      "source": "native",
+      "x": 165,
+      "y": 404,
+      "width": 659,
+      "height": 264
+    },
+    {
+      "description": "RESPONSAVEL_PELA_ILUMINACAO",
+      "source": "native",
+      "x": 175,
+      "y": 2733,
+      "width": 967,
+      "height": 81
+    },
+    {
+      "description": "INFORMACOES_TRIBUTARIAS",
+      "source": "native",
+      "x": 1408,
+      "y": 452,
+      "width": 926,
+      "height": 319
+    },
+    {
+      "description": "MENSAGEM_IMPORTANTE",
+      "source": "native",
+      "x": 62,
+      "y": 833,
+      "width": 2380,
+      "height": 421
+    },
+    {
+      "description": "DESCRICAO_FATURAMENTO",
+      "source": "ocr",
+      "x": 11,
+      "y": 1314,
+      "width": 1452,
+      "height": 962
+    },
+    {
+      "description": "TRIBUTOS",
+      "source": "ocr",
+      "x": 1433,
+      "y": 1255,
+      "width": 445,
+      "height": 529
+    }
+  ]
+}
